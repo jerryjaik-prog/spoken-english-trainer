@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spoken English Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">Spoken English Trainer</div>
+    <div class="developer">Developed by Jaimon Mathew</div>
+  </header>
+
+  <main class="container">
+    <section id="grade-select" class="card">
+      <h2>Select Grade</h2>
+      <div id="grades" class="grid"></div>
+    </section>
+
+    <section id="lessons" class="card" style="display:none">
+      <button id="back-to-grades" class="btn">← Back</button>
+      <h2 id="lessons-title"></h2>
+      <div id="lessons-list" class="grid"></div>
+    </section>
+
+    <section id="player" class="card" style="display:none">
+      <button id="back-to-lessons" class="btn">← Back to Lessons</button>
+      <h2 id="lesson-title"></h2>
+
+      <div id="practice-area">
+        <div id="practice-prompt" class="prompt"></div>
+        <div id="practice-text" class="practice-text"></div>
+        <div class="controls">
+          <button id="listen-btn" class="btn">🔊 Listen</button>
+          <button id="start-btn" class="btn">🎤 Start</button>
+          <button id="stop-btn" class="btn">⏹ Stop</button>
+        </div>
+        <div id="transcript" class="transcript"></div>
+      </div>
+
+      <div id="quiz-area"></div>
+    </section>
+
+    <section id="progress" class="card">
+      <h3>Your Progress (local)</h3>
+      <pre id="progress-json">{}</pre>
+    </section>
+  </main>
+
+  <footer class="footer">J&L Technologies</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

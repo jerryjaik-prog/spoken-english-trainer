@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin - Spoken English Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">Admin - Spoken English Trainer</div>
+    <div class="developer">Developed by Jaimon Mathew</div>
+  </header>
+  <main class="container">
+    <div class="card">
+      <h2>Teacher / Admin Panel</h2>
+      <div>
+        <label>Admin password: <input id="admin-pass" type="password" /></label>
+        <button id="login-btn" class="btn">Login</button>
+        <button id="logout-btn" class="btn" style="display:none;">Logout</button>
+      </div>
+      <div id="admin-ui" style="display:none; margin-top:12px;">
+        <div style="margin-bottom:8px;">
+          <button id="import-btn" class="btn">Import lessons.json</button>
+          <input type="file" id="file-input" accept=".json" style="display:none" />
+          <button id="export-btn" class="btn">Export lessons.json</button>
+        </div>
+        <div>
+          <h3>Current Data</h3>
+          <textarea id="lessons-text" style="width:100%; height:320px;"></textarea>
+        </div>
+        <div style="margin-top:8px;">
+          <button id="save-local" class="btn">Save to Local (client)</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">J&L Technologies</footer>
+  <script src="admin.js"></script>
+</body>
+</html>

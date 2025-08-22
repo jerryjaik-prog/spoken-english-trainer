@@ -1,0 +1,606 @@
+{
+  "grades": [
+    {
+      "grade": 1,
+      "lessons": [
+        {
+          "id": "g1_l1",
+          "title": "Greetings",
+          "sentences": [
+            {
+              "text": "Hello"
+            },
+            {
+              "text": "Good morning"
+            },
+            {
+              "text": "How are you?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What do you say when meeting someone?",
+              "options": [
+                "Good night",
+                "Hello",
+                "Bye",
+                "See you"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g1_l2",
+          "title": "Classroom Objects",
+          "sentences": [
+            {
+              "text": "This is a book."
+            },
+            {
+              "text": "That is a pencil."
+            },
+            {
+              "text": "It is a bag."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is used for writing?",
+              "options": [
+                "Book",
+                "Pencil",
+                "Bag",
+                "Bottle"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g1_l3",
+          "title": "Numbers",
+          "sentences": [
+            {
+              "text": "One, two, three."
+            },
+            {
+              "text": "I have two apples."
+            },
+            {
+              "text": "Count with me."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "How many apples?",
+              "options": [
+                "One",
+                "Two",
+                "Three",
+                "Four"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "lessons": [
+        {
+          "id": "g2_l1",
+          "title": "Introducing Yourself",
+          "sentences": [
+            {
+              "text": "My name is Sam."
+            },
+            {
+              "text": "I am seven years old."
+            },
+            {
+              "text": "I live in Kochi."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Choose a correct self-introduction",
+              "options": [
+                "My name are Sam.",
+                "I name Sam.",
+                "My name is Sam.",
+                "Me Sam name."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g2_l2",
+          "title": "Days of the Week",
+          "sentences": [
+            {
+              "text": "Today is Monday."
+            },
+            {
+              "text": "Tomorrow is Tuesday."
+            },
+            {
+              "text": "Yesterday was Sunday."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What comes after Monday?",
+              "options": [
+                "Sunday",
+                "Tuesday",
+                "Friday",
+                "Wednesday"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g2_l3",
+          "title": "Colors",
+          "sentences": [
+            {
+              "text": "The sky is blue."
+            },
+            {
+              "text": "Grass is green."
+            },
+            {
+              "text": "Roses can be red."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What color is the sky?",
+              "options": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "lessons": [
+        {
+          "id": "g3_l1",
+          "title": "Polite Requests",
+          "sentences": [
+            {
+              "text": "Please pass the salt."
+            },
+            {
+              "text": "May I come in?"
+            },
+            {
+              "text": "Could you help me?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is polite?",
+              "options": [
+                "Give me salt.",
+                "Pass salt.",
+                "Please pass the salt.",
+                "Salt please."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g3_l2",
+          "title": "Describing Objects",
+          "sentences": [
+            {
+              "text": "The ball is red."
+            },
+            {
+              "text": "The box is heavy."
+            },
+            {
+              "text": "The table is round."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which describes color?",
+              "options": [
+                "The box is heavy.",
+                "The table is round.",
+                "The ball is red.",
+                "The cat sleeps."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g3_l3",
+          "title": "Food",
+          "sentences": [
+            {
+              "text": "I like apples."
+            },
+            {
+              "text": "I eat rice for lunch."
+            },
+            {
+              "text": "Do you like mango?"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is a fruit?",
+              "options": [
+                "Rice",
+                "Apple",
+                "Bread",
+                "Milk"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "lessons": [
+        {
+          "id": "g4_l1",
+          "title": "Present vs Past",
+          "sentences": [
+            {
+              "text": "I play football."
+            },
+            {
+              "text": "I played football."
+            },
+            {
+              "text": "I am playing football."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is past tense?",
+              "options": [
+                "I play.",
+                "I will play.",
+                "I played.",
+                "I am playing."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g4_l2",
+          "title": "Prepositions",
+          "sentences": [
+            {
+              "text": "The cat is on the table."
+            },
+            {
+              "text": "The dog is under the chair."
+            },
+            {
+              "text": "The box is beside the bed."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Choose the correct preposition: The book is __ the bag.",
+              "options": [
+                "on",
+                "in",
+                "under",
+                "behind"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g4_l3",
+          "title": "Routines",
+          "sentences": [
+            {
+              "text": "I brush my teeth."
+            },
+            {
+              "text": "I go to school."
+            },
+            {
+              "text": "I do my homework."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What do you do in the morning?",
+              "options": [
+                "Sleep",
+                "Brush teeth",
+                "Eat dinner",
+                "Go to bed"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "lessons": [
+        {
+          "id": "g5_l1",
+          "title": "Describing Routines",
+          "sentences": [
+            {
+              "text": "I wake up at six o'clock."
+            },
+            {
+              "text": "I have breakfast at seven."
+            },
+            {
+              "text": "I go to school by bus."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is about routine?",
+              "options": [
+                "I went yesterday.",
+                "I will go tomorrow.",
+                "I go to school by bus.",
+                "I might go."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g5_l2",
+          "title": "Comparatives",
+          "sentences": [
+            {
+              "text": "This box is heavier than that one."
+            },
+            {
+              "text": "My house is bigger than yours."
+            },
+            {
+              "text": "She is taller than me."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Choose correct comparative: A cheetah is ____ than a dog.",
+              "options": [
+                "fast",
+                "faster",
+                "fastest",
+                "more fast"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g5_l3",
+          "title": "Shopping",
+          "sentences": [
+            {
+              "text": "How much is this?"
+            },
+            {
+              "text": "Can I pay by card?"
+            },
+            {
+              "text": "I would like to buy this."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What do you ask to know the price?",
+              "options": [
+                "Where is it?",
+                "How much is this?",
+                "When is it?",
+                "Who is it?"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "lessons": [
+        {
+          "id": "g6_l1",
+          "title": "Past Continuous",
+          "sentences": [
+            {
+              "text": "I was reading when you called."
+            },
+            {
+              "text": "They were playing football."
+            },
+            {
+              "text": "She was cooking dinner."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Pick the past continuous:",
+              "options": [
+                "I read a book.",
+                "I am reading.",
+                "I was reading.",
+                "I will read."
+              ],
+              "answerIndex": 2
+            }
+          ]
+        },
+        {
+          "id": "g6_l2",
+          "title": "Modals",
+          "sentences": [
+            {
+              "text": "I can swim."
+            },
+            {
+              "text": "May I leave early?"
+            },
+            {
+              "text": "You should practice daily."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which asks permission?",
+              "options": [
+                "I can swim.",
+                "May I leave early?",
+                "You should practice.",
+                "I will swim."
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g6_l3",
+          "title": "Directions",
+          "sentences": [
+            {
+              "text": "Turn left at the corner."
+            },
+            {
+              "text": "Go straight for two blocks."
+            },
+            {
+              "text": "The bank is next to the park."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "If told 'turn left', which way do you go?",
+              "options": [
+                "Right",
+                "Left",
+                "Straight",
+                "Back"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "lessons": [
+        {
+          "id": "g7_l1",
+          "title": "Reported Speech",
+          "sentences": [
+            {
+              "text": "He said that he was tired."
+            },
+            {
+              "text": "She told me that she would help."
+            },
+            {
+              "text": "They said that they had finished."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Reported for 'I am fine' ->",
+              "options": [
+                "He said that he is fine.",
+                "He said that he was fine.",
+                "He said that I am fine.",
+                "He say he fine."
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g7_l2",
+          "title": "Conditionals",
+          "sentences": [
+            {
+              "text": "If it rains, we will stay home."
+            },
+            {
+              "text": "If I were you, I would study."
+            },
+            {
+              "text": "If she had known, she would have come."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is first conditional?",
+              "options": [
+                "If I were you...",
+                "If it rains, we will stay home.",
+                "If she had known...",
+                "If I had money..."
+              ],
+              "answerIndex": 1
+            }
+          ]
+        },
+        {
+          "id": "g7_l3",
+          "title": "Debate Phrases",
+          "sentences": [
+            {
+              "text": "I believe that..."
+            },
+            {
+              "text": "On the other hand..."
+            },
+            {
+              "text": "In my opinion..."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which phrase expresses opinion?",
+              "options": [
+                "On the other hand",
+                "I believe that",
+                "As a result",
+                "Because"
+              ],
+              "answerIndex": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

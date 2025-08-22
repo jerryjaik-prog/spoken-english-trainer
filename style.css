@@ -1,0 +1,23 @@
+
+:root{
+  --bg:#f8fafc; --card:#ffffff; --primary:#2563eb; --muted:#6b7280
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; background:linear-gradient(180deg,#f0f9ff,white); color:#111}
+.header{display:flex; justify-content:space-between; align-items:center; padding:14px 20px; background:rgba(255,255,255,0.8); border-bottom:1px solid #eee; position:sticky; top:0}
+.brand{font-weight:700; color:var(--primary)}
+.developer{font-size:13px; color:#374151}
+.container{max-width:1000px; margin:18px auto; padding:12px}
+.card{background:var(--card); padding:14px; border-radius:10px; box-shadow:0 8px 24px rgba(16,24,40,0.04); margin-bottom:14px}
+.grid{display:flex; gap:8px; flex-wrap:wrap}
+.grade-btn{padding:10px 12px; border-radius:10px; border:1px solid #e6eefc; background:white; cursor:pointer}
+.lesson-card{padding:12px; border-radius:10px; background:#fff; border:1px solid #f1f5f9; width:260px}
+.lesson-title{font-weight:700}
+.lesson-meta{font-size:13px; color:var(--muted)}
+.lesson-actions{margin-top:8px}
+.btn{padding:8px 12px; border-radius:8px; border:none; background:var(--primary); color:white; cursor:pointer}
+.prompt{color:#475569; font-size:14px; margin-bottom:6px}
+.practice-text{font-size:20px; font-weight:600; margin:6px 0}
+.controls{display:flex; gap:8px; margin-top:8px}
+.transcript{margin-top:10px; color:#065f46}
+.footer{padding:12px; text-align:center; color:#374151}
